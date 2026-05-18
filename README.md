@@ -43,3 +43,14 @@ gradle/
 README.md
 build.gradle.kts
 settings.gradle.kts
+
+## Application Architecture
+
+The application follows a modular Android architecture using Jetpack Compose for UI development. The app uses offline datasets and eligibility logic to provide healthcare scheme recommendations without requiring internet connectivity.
+
+Modules:
+- UI Screens
+- Eligibility Engine
+- Scheme Data Layer
+- Hospital Finder
+- Document Checklist
